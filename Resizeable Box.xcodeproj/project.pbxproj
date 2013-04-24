@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64B7786015B091C900A7D47F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B7785F15B091C900A7D47F /* UIKit.framework */; };
+		64B7786215B091C900A7D47F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B7786115B091C900A7D47F /* Foundation.framework */; };
+		64B7786415B091C900A7D47F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B7786315B091C900A7D47F /* CoreGraphics.framework */; };
+		64B7786A15B091C900A7D47F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64B7786815B091C900A7D47F /* InfoPlist.strings */; };
+		64B7786C15B091C900A7D47F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B7786B15B091C900A7D47F /* main.m */; };
+		64B7787015B091C900A7D47F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B7786F15B091C900A7D47F /* AppDelegate.m */; };
+		64B7787315B091C900A7D47F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B7787215B091C900A7D47F /* ViewController.m */; };
+		64B7787615B091C900A7D47F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64B7787415B091C900A7D47F /* ViewController.xib */; };
+		64B7787E15B091C900A7D47F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B7787D15B091C900A7D47F /* SenTestingKit.framework */; };
+		64B7787F15B091C900A7D47F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B7785F15B091C900A7D47F /* UIKit.framework */; };
+		64B7788015B091C900A7D47F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B7786115B091C900A7D47F /* Foundation.framework */; };
+		64B7788815B091C900A7D47F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64B7788615B091C900A7D47F /* InfoPlist.strings */; };
+		64B7788B15B091CA00A7D47F /* Resizeable_BoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B7788A15B091CA00A7D47F /* Resizeable_BoxTests.m */; };
+		64B7789615B0927300A7D47F /* ResizableBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B7789515B0927300A7D47F /* ResizableBox.m */; };
+		64B7789C15B0E69D00A7D47F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B7789B15B0E69D00A7D47F /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64B7788115B091C900A7D47F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64B7785215B091C900A7D47F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64B7785A15B091C900A7D47F;
+			remoteInfo = "Resizeable Box";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64B7785B15B091C900A7D47F /* Resizeable Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resizeable Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B7785F15B091C900A7D47F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64B7786115B091C900A7D47F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64B7786315B091C900A7D47F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64B7786715B091C900A7D47F /* Resizeable Box-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resizeable Box-Info.plist"; sourceTree = "<group>"; };
+		64B7786915B091C900A7D47F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64B7786B15B091C900A7D47F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64B7786D15B091C900A7D47F /* Resizeable Box-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Resizeable Box-Prefix.pch"; sourceTree = "<group>"; };
+		64B7786E15B091C900A7D47F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64B7786F15B091C900A7D47F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64B7787115B091C900A7D47F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64B7787215B091C900A7D47F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64B7787515B091C900A7D47F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		64B7787C15B091C900A7D47F /* Resizeable BoxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Resizeable BoxTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B7787D15B091C900A7D47F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		64B7788515B091C900A7D47F /* Resizeable BoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resizeable BoxTests-Info.plist"; sourceTree = "<group>"; };
+		64B7788715B091C900A7D47F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64B7788915B091CA00A7D47F /* Resizeable_BoxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resizeable_BoxTests.h; sourceTree = "<group>"; };
+		64B7788A15B091CA00A7D47F /* Resizeable_BoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Resizeable_BoxTests.m; sourceTree = "<group>"; };
+		64B7789415B0927300A7D47F /* ResizableBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizableBox.h; sourceTree = "<group>"; };
+		64B7789515B0927300A7D47F /* ResizableBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizableBox.m; sourceTree = "<group>"; };
+		64B7789B15B0E69D00A7D47F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64B7785815B091C900A7D47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7789C15B0E69D00A7D47F /* QuartzCore.framework in Frameworks */,
+				64B7786015B091C900A7D47F /* UIKit.framework in Frameworks */,
+				64B7786215B091C900A7D47F /* Foundation.framework in Frameworks */,
+				64B7786415B091C900A7D47F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B7787815B091C900A7D47F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7787E15B091C900A7D47F /* SenTestingKit.framework in Frameworks */,
+				64B7787F15B091C900A7D47F /* UIKit.framework in Frameworks */,
+				64B7788015B091C900A7D47F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64B7785015B091C900A7D47F = {
+			isa = PBXGroup;
+			children = (
+				64B7786515B091C900A7D47F /* Resizeable Box */,
+				64B7788315B091C900A7D47F /* Resizeable BoxTests */,
+				64B7785E15B091C900A7D47F /* Frameworks */,
+				64B7785C15B091C900A7D47F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64B7785C15B091C900A7D47F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64B7785B15B091C900A7D47F /* Resizeable Box.app */,
+				64B7787C15B091C900A7D47F /* Resizeable BoxTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64B7785E15B091C900A7D47F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64B7789B15B0E69D00A7D47F /* QuartzCore.framework */,
+				64B7785F15B091C900A7D47F /* UIKit.framework */,
+				64B7786115B091C900A7D47F /* Foundation.framework */,
+				64B7786315B091C900A7D47F /* CoreGraphics.framework */,
+				64B7787D15B091C900A7D47F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64B7786515B091C900A7D47F /* Resizeable Box */ = {
+			isa = PBXGroup;
+			children = (
+				64B7786E15B091C900A7D47F /* AppDelegate.h */,
+				64B7786F15B091C900A7D47F /* AppDelegate.m */,
+				64B7787115B091C900A7D47F /* ViewController.h */,
+				64B7787215B091C900A7D47F /* ViewController.m */,
+				64B7787415B091C900A7D47F /* ViewController.xib */,
+				64B7789415B0927300A7D47F /* ResizableBox.h */,
+				64B7789515B0927300A7D47F /* ResizableBox.m */,
+				64B7786615B091C900A7D47F /* Supporting Files */,
+			);
+			path = "Resizeable Box";
+			sourceTree = "<group>";
+		};
+		64B7786615B091C900A7D47F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B7786715B091C900A7D47F /* Resizeable Box-Info.plist */,
+				64B7786815B091C900A7D47F /* InfoPlist.strings */,
+				64B7786B15B091C900A7D47F /* main.m */,
+				64B7786D15B091C900A7D47F /* Resizeable Box-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64B7788315B091C900A7D47F /* Resizeable BoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				64B7788915B091CA00A7D47F /* Resizeable_BoxTests.h */,
+				64B7788A15B091CA00A7D47F /* Resizeable_BoxTests.m */,
+				64B7788415B091C900A7D47F /* Supporting Files */,
+			);
+			path = "Resizeable BoxTests";
+			sourceTree = "<group>";
+		};
+		64B7788415B091C900A7D47F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B7788515B091C900A7D47F /* Resizeable BoxTests-Info.plist */,
+				64B7788615B091C900A7D47F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64B7785A15B091C900A7D47F /* Resizeable Box */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B7788E15B091CA00A7D47F /* Build configuration list for PBXNativeTarget "Resizeable Box" */;
+			buildPhases = (
+				64B7785715B091C900A7D47F /* Sources */,
+				64B7785815B091C900A7D47F /* Frameworks */,
+				64B7785915B091C900A7D47F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Resizeable Box";
+			productName = "Resizeable Box";
+			productReference = 64B7785B15B091C900A7D47F /* Resizeable Box.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64B7787B15B091C900A7D47F /* Resizeable BoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64B7789115B091CA00A7D47F /* Build configuration list for PBXNativeTarget "Resizeable BoxTests" */;
+			buildPhases = (
+				64B7787715B091C900A7D47F /* Sources */,
+				64B7787815B091C900A7D47F /* Frameworks */,
+				64B7787915B091C900A7D47F /* Resources */,
+				64B7787A15B091C900A7D47F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64B7788215B091C900A7D47F /* PBXTargetDependency */,
+			);
+			name = "Resizeable BoxTests";
+			productName = "Resizeable BoxTests";
+			productReference = 64B7787C15B091C900A7D47F /* Resizeable BoxTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64B7785215B091C900A7D47F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Jake Landon";
+			};
+			buildConfigurationList = 64B7785515B091C900A7D47F /* Build configuration list for PBXProject "Resizeable Box" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64B7785015B091C900A7D47F;
+			productRefGroup = 64B7785C15B091C900A7D47F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64B7785A15B091C900A7D47F /* Resizeable Box */,
+				64B7787B15B091C900A7D47F /* Resizeable BoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64B7785915B091C900A7D47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7786A15B091C900A7D47F /* InfoPlist.strings in Resources */,
+				64B7787615B091C900A7D47F /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B7787915B091C900A7D47F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7788815B091C900A7D47F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64B7787A15B091C900A7D47F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64B7785715B091C900A7D47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7786C15B091C900A7D47F /* main.m in Sources */,
+				64B7787015B091C900A7D47F /* AppDelegate.m in Sources */,
+				64B7787315B091C900A7D47F /* ViewController.m in Sources */,
+				64B7789615B0927300A7D47F /* ResizableBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B7787715B091C900A7D47F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B7788B15B091CA00A7D47F /* Resizeable_BoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64B7788215B091C900A7D47F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64B7785A15B091C900A7D47F /* Resizeable Box */;
+			targetProxy = 64B7788115B091C900A7D47F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64B7786815B091C900A7D47F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B7786915B091C900A7D47F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64B7787415B091C900A7D47F /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B7787515B091C900A7D47F /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		64B7788615B091C900A7D47F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64B7788715B091C900A7D47F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64B7788C15B091CA00A7D47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		64B7788D15B091CA00A7D47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64B7788F15B091CA00A7D47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resizeable Box/Resizeable Box-Prefix.pch";
+				INFOPLIST_FILE = "Resizeable Box/Resizeable Box-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64B7789015B091CA00A7D47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resizeable Box/Resizeable Box-Prefix.pch";
+				INFOPLIST_FILE = "Resizeable Box/Resizeable Box-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		64B7789215B091CA00A7D47F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Resizeable Box.app/Resizeable Box";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resizeable Box/Resizeable Box-Prefix.pch";
+				INFOPLIST_FILE = "Resizeable BoxTests/Resizeable BoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		64B7789315B091CA00A7D47F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Resizeable Box.app/Resizeable Box";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resizeable Box/Resizeable Box-Prefix.pch";
+				INFOPLIST_FILE = "Resizeable BoxTests/Resizeable BoxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64B7785515B091C900A7D47F /* Build configuration list for PBXProject "Resizeable Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B7788C15B091CA00A7D47F /* Debug */,
+				64B7788D15B091CA00A7D47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64B7788E15B091CA00A7D47F /* Build configuration list for PBXNativeTarget "Resizeable Box" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B7788F15B091CA00A7D47F /* Debug */,
+				64B7789015B091CA00A7D47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64B7789115B091CA00A7D47F /* Build configuration list for PBXNativeTarget "Resizeable BoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64B7789215B091CA00A7D47F /* Debug */,
+				64B7789315B091CA00A7D47F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64B7785215B091C900A7D47F /* Project object */;
+}
